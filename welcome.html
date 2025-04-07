@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Welcome - CyberTapSecurity</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .matrix {
+      font-family: monospace;
+      color: lime;
+      font-size: 1rem;
+      white-space: pre;
+      line-height: 1.2;
+      animation: scroll 30s linear infinite;
+    }
+    @keyframes scroll {
+      0% { transform: translateY(0%); }
+      100% { transform: translateY(-100%); }
+    }
+  </style>
 </head>
-<body>
-  <h1>Welcome to CyberTapSecurity</h1>
-  <p>This page can feature a matrix-style animation or brand intro.</p>
+<body class="bg-black text-green-500 h-screen flex items-center justify-center overflow-hidden">
+  <div class="absolute top-4 right-4">
+    <button onclick="document.documentElement.classList.toggle('dark')" class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-600 dark:bg-white dark:text-black">
+      Toggle Theme
+    </button>
+  </div>
+  <div class="matrix text-sm text-center px-4">
+    <p>010101110110010100100000011000110111001001100101011000010111010001100101</p>
+    <p>010000110111100101100010011001010111001001010100011000010111000001100101</p>
+    <p>010100110110010101100011011101010111001001101001011101000111100101010111</p>
+    <p>010001100110111101110010001000000100011101100101011011100110010101110010</p>
+    <p class="mt-8 text-2xl font-bold text-white dark:text-green-300">Welcome to CyberTapSecurity</p>
+  </div>
 </body>
 </html>
