@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Writeups - CyberTapSecurity</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <title>CyberTapSecurity - Writeups</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1>Cybersecurity Writeups</h1>
-  <ul>
-    <li><a href="#">NCL Challenge: Log Analysis - SSH Brute Force</a></li>
-    <li><a href="#">Kali Lab: Metadata Extraction from DOCX</a></li>
-    <li><a href="#">Phishing Simulation: GoPhish Setup</a></li>
-  </ul>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold mb-6">📘 Writeups</h1>
+
+    <div class="space-y-8">
+      <div>
+        <h2 class="text-2xl font-semibold">🔐 SSH Brute Force Detection – NCL Challenge</h2>
+        <p class="mt-2 text-base">Used log analysis tools on a Linux host to detect repetitive failed SSH login attempts. Identified attacker IPs and implemented fail2ban to mitigate brute-force activity.</p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold">📂 Metadata Extraction from DOCX – Kali Linux</h2>
+        <p class="mt-2 text-base">Used tools like `exiftool` and `strings` to extract metadata from Word documents. Revealed embedded usernames, timestamps, and tracked internal file paths.</p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-semibold">📧 Phishing Simulation Using GoPhish</h2>
+        <p class="mt-2 text-base">Built and deployed an internal phishing campaign using GoPhish. Measured employee response rates, captured interaction logs, and compiled a training guide from the results.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
