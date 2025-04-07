@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CyberTapSecurity - Writeups</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
-  <div class="max-w-4xl mx-auto px-6 py-12">
-    <h1 class="text-3xl font-bold mb-6">📘 Writeups</h1>
-
-    <div class="space-y-8">
+<body class="bg-black text-green-500 font-mono px-6 py-12">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl text-green-400 font-bold mb-6">📘 Cybersecurity Writeups</h1>
+    
+    <div class="space-y-6">
       <div>
-        <h2 class="text-2xl font-semibold">🔐 SSH Brute Force Detection – NCL Challenge</h2>
-        <p class="mt-2 text-base">Used log analysis tools on a Linux host to detect repetitive failed SSH login attempts. Identified attacker IPs and implemented fail2ban to mitigate brute-force activity.</p>
+        <h2 class="text-2xl text-green-300 font-semibold">SSH Brute Force Detection – NCL Challenge</h2>
+        <p>Used log analysis on Linux to detect repeated SSH failures. Applied fail2ban rules to block brute-force IPs.</p>
       </div>
-
       <div>
-        <h2 class="text-2xl font-semibold">📂 Metadata Extraction from DOCX – Kali Linux</h2>
-        <p class="mt-2 text-base">Used tools like `exiftool` and `strings` to extract metadata from Word documents. Revealed embedded usernames, timestamps, and tracked internal file paths.</p>
+        <h2 class="text-2xl text-green-300 font-semibold">Metadata Extraction from DOCX – Kali Linux</h2>
+        <p>Used <code>exiftool</code> and <code>strings</code> to extract metadata revealing user info and internal path leakage.</p>
       </div>
-
       <div>
-        <h2 class="text-2xl font-semibold">📧 Phishing Simulation Using GoPhish</h2>
-        <p class="mt-2 text-base">Built and deployed an internal phishing campaign using GoPhish. Measured employee response rates, captured interaction logs, and compiled a training guide from the results.</p>
+        <h2 class="text-2xl text-green-300 font-semibold">Phishing Simulation Using GoPhish</h2>
+        <p>Designed a phishing campaign to measure employee response. Captured click stats and improved awareness.</p>
       </div>
+    </div>
+
+    <div class="mt-8">
+      <a href="index.html" class="underline hover:text-green-300">← Back to Home</a>
     </div>
   </div>
 </body>
