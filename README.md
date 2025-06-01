@@ -1,6 +1,6 @@
 # 🌐 CyberTapSolutions.com
 
-This repository contains the source code for the professional static website of **CyberTapSecurity** — a cybersecurity consulting brand led by Ramon Tapia.
+This repository contains the source code for the professional static website of **CyberTapSolutions** — a cybersecurity consulting brand led by Ramon Tapia.
 
 The site highlights services, real cybersecurity writeups, lab experiences, and defense strategies. It's fully responsive and designed with a clean, hacker-modern aesthetic inspired by sites like pentester.com and Squarespace.
 
