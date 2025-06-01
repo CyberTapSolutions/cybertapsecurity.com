@@ -31,8 +31,8 @@ The site highlights services, real cybersecurity writeups, lab experiences, and 
 
 ## 📬 Contact
 
-- 📧 Email: [contact@cybertapsecurity.com](mailto:contact@cybertapsecurity.com)
-- 🌐 Site: [https://cybertapsecurity.com](https://cybertapsecurity.com)
+- 📧 Email: [cybertapsolutions@gmail.com](mailto:cybertapsolutions@gmail.com)
+- 🌐 Site: [https://cybertapsolutions.com](https://cybertapsolutions.com)
 
 ---
 
