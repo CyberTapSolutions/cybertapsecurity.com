@@ -1,4 +1,4 @@
-# 🌐 CyberTapSecurity.com
+# 🌐 CyberTapSolutions.com
 
 This repository contains the source code for the professional static website of **CyberTapSecurity** — a cybersecurity consulting brand led by Ramon Tapia.
 
